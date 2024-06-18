@@ -1,0 +1,18 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "deploy:uni-v2:sepolia": "hardhat run scripts/deploy-uniswap-v2.ts --network sepolia"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.5"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.4.1",
+    "@openzeppelin/contracts": "^4.9.3",
+    "@uniswap/hardhat-v3-deploy": "^0.1.1",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "ethers": "^6.7.1"
+  }
+}
